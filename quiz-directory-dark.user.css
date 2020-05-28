@@ -1,0 +1,116 @@
+/* ==UserStyle==
+@name         Telegram Quiz Directory Dark
+@version      1.0.0
+@description  A dark style for quiz.directory
+@namespace    https://github.com/dotvhs/usercss-template
+@author       dotvhs
+@homepageURL  https://github.com/dotvhs/usercss-template
+@supportURL   https://github.com/dotvhs/usercss-template/issues
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("quiz.directory") {
+  body {
+    color: #fff; }
+  a,
+  a:hover,
+  .bq-result-question-item .bq-result-answer strong {
+    color: #73bbf5; }
+  .bq-result-question-item .bq-result-answer ins {
+    color: #81fd73; }
+  .bq-result-question-item .bq-result-answer del {
+    color: #b95252; }
+  body,
+  header.bq-header,
+  .bq-header-auth-photo,
+  .bq-comment-photo {
+    background: #17212b; }
+  .bq-question-message .tgme_widget_message_photo {
+    background-color: #17212b; }
+  code {
+    color: #96ffeb;
+    background-color: #354e57; }
+  .bq-header-main {
+    border-bottom: 1px solid #101921; }
+  html,
+  main.bq-quizzes {
+    background: #0e1621; }
+  .bq-quiz {
+    background: #17212b; }
+  .bq-btn,
+  .popup-buttons .btn {
+    background-color: #2e70a5; }
+  .bq-quiz-title,
+  .bq-comment-input-wrap .bq-input-field .input {
+    color: #fff; }
+  .bq-quiz-info,
+  h3.bq-header,
+  .bq-header-link-wrap,
+  .bq-info-desc,
+  .bq-comment-author-flex .bq-comment-date,
+  .bq-action-btn,
+  .bq-header-link,
+  .bq-header-link:hover,
+  .bq-timer .clock-time,
+  .bq-quiz-graph-bar,
+  .bq-quiz-graph-subbar,
+  .bq-list-empty,
+  .bq-comment-form-placeholder,
+  .bq-quizzes-list .bq-load-more {
+    color: #7f92a4; }
+  .bq-quiz-graph-bar {
+    border-top: 1px solid rgba(127, 146, 164, 0.3); }
+  svg g circle {
+    stroke: #7f92a4; }
+  .bq-quiz-completed-text,
+  .bq-quiz-title strong,
+  .bq-header-filter button.btn {
+    color: #73bbf5; }
+  .bq-rate-star,
+  .bq-rating-stars:hover .bq-rate-star {
+    fill: #242f3d; }
+  .bq-rating-stars .bq-rate-star:hover,
+  .bq-rate-star:hover ~ .bq-rate-star {
+    fill: #2b96e2; }
+  .bq-quiz-graph s {
+    background: #3e546a; }
+  .bq-quiz-graph s .badge {
+    box-shadow: 0 0 0 3px #17212b; }
+  .bq-question-explanation::before {
+    background: #3e546a; }
+  .bq-question.checked .bq-question-answer.correct .bq-answer-label,
+  .bq-question.checked .bq-question-answer.selected .bq-answer-label {
+    color: #fff; }
+  .bq-header-search {
+    box-shadow: inset 0 0 0 1px #242f3d;
+    background-color: #242f3d; }
+  .bq-header-filter .dropdown-menu,
+  .bq-header-filter button.btn:hover,
+  .popup,
+  .bq-question-explanation,
+  .bq-btn.disabled {
+    background: #242f3d; }
+  .dropdown-menu > li > a {
+    color: #fff; }
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #2e70a5; }
+  .bq-header-search .bq-form-control {
+    color: #fff; }
+  .form-control:focus::placeholder {
+    color: #485460; }
+  .form-control::placeholder {
+    color: #6c7883; }
+  .input.empty[data-placeholder]::before {
+    color: #6c7883; }
+  .input.empty[data-placeholder]:focus::before {
+    color: #485460; }
+  .bq-comment-input-wrap .bq-input-field {
+    border: 1px solid #242f3d;
+    background: #242f3d; }
+  .bq-result-question-item + .bq-result-question-item .bq-result-question-body {
+    border-top: 1px solid #242f3d; }
+  .bq-question-message-media {
+    width: auto; }
+  .bq-comment.highlight > .bq-comment-content > .bq-comment-box {
+    background: #242f3d; } }
