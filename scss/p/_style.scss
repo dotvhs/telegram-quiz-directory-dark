@@ -84,7 +84,7 @@ h3.bq-header,
 }
 
 .bq-quiz-graph-bar {
-	border-top: 1px solid $textlight;
+	border-top: 1px solid rgba($textlight, 0.3);
 }
 
 svg g circle {
@@ -155,8 +155,14 @@ svg g circle {
 
 .bq-header-search .bq-form-control {
 	color: #fff;
+}
 
-	::placeholder {
+.form-control {
+	&:focus::placeholder {
+		color: mix($hint, $bglight, 50%);
+	}
+
+	&::placeholder {
 		color: $hint;
 	}
 }
@@ -175,4 +181,12 @@ svg g circle {
 
 .bq-result-question-item + .bq-result-question-item .bq-result-question-body {
 	border-top: 1px solid $bglight;
+}
+
+.bq-question-message-media {
+	width: auto;
+}
+
+.bq-comment.highlight > .bq-comment-content > .bq-comment-box {
+	background: $bglight;
 }
