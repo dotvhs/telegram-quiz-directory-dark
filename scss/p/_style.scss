@@ -1,3 +1,178 @@
+$bgdark: #0e1621;
+$bg: #17212b;
+$bglight: #242f3d;
+$border: #101921;
+$button: #2e70a5;
+$text: #fff;
+$textlight: #7f92a4;
+$textblue: #73bbf5;
+
+$hint: #6c7883;
+
 body {
-	font-size: 100%;
+	color: $text;
+}
+
+a,
+a:hover,
+.bq-result-question-item .bq-result-answer strong {
+	color: $textblue;
+}
+
+.bq-result-question-item .bq-result-answer ins {
+	color: #81fd73;
+}
+
+.bq-result-question-item .bq-result-answer del {
+	color: #b95252;
+}
+
+body,
+header.bq-header,
+.bq-header-auth-photo,
+.bq-comment-photo {
+	background: $bg;
+}
+
+.bq-question-message .tgme_widget_message_photo {
+	background-color: $bg;
+}
+
+code {
+	color: #96ffeb;
+	background-color: mix(#96ffeb, #242f3d, 15%);
+}
+
+.bq-header-main {
+	border-bottom: 1px solid $border;
+}
+
+html,
+main.bq-quizzes {
+	background: $bgdark;
+}
+
+.bq-quiz {
+	background: $bg;
+}
+
+.bq-btn,
+.popup-buttons .btn {
+	background-color: $button;
+}
+
+.bq-quiz-title,
+.bq-comment-input-wrap .bq-input-field .input {
+	color: $text;
+}
+
+.bq-quiz-info,
+h3.bq-header,
+.bq-header-link-wrap,
+.bq-info-desc,
+.bq-comment-author-flex .bq-comment-date,
+.bq-action-btn,
+.bq-header-link,
+.bq-header-link:hover,
+.bq-timer .clock-time,
+.bq-quiz-graph-bar,
+.bq-quiz-graph-subbar,
+.bq-list-empty,
+.bq-comment-form-placeholder,
+.bq-quizzes-list .bq-load-more {
+	color: $textlight;
+}
+
+.bq-quiz-graph-bar {
+	border-top: 1px solid $textlight;
+}
+
+svg g circle {
+	stroke: $textlight;
+}
+
+.bq-quiz-completed-text,
+.bq-quiz-title strong,
+.bq-header-filter button.btn {
+	color: $textblue;
+}
+
+.bq-rate-star,
+.bq-rating-stars:hover .bq-rate-star {
+	fill: $bglight;
+}
+
+.bq-rating-stars .bq-rate-star:hover,
+.bq-rate-star:hover ~ .bq-rate-star {
+	fill: #2b96e2;
+}
+
+.bq-quiz-graph s {
+	background: #3e546a;
+}
+
+.bq-quiz-graph s .badge {
+	box-shadow: 0 0 0 3px $bg;
+}
+
+.bq-question-explanation::before {
+	background: #3e546a;
+}
+
+.bq-answer-icon.none,
+.bq-question.checked .bq-question-answer:hover .bq-answer-icon.none,
+.bq-question.selected .bq-question-answer:hover .bq-answer-icon.none {
+	// background-color: #6c7883;
+}
+
+.bq-question.checked .bq-question-answer.correct .bq-answer-label,
+.bq-question.checked .bq-question-answer.selected .bq-answer-label {
+	color: $text;
+}
+
+.bq-header-search {
+	box-shadow: inset 0 0 0 1px $bglight;
+	background-color: $bglight;
+}
+
+.bq-header-filter .dropdown-menu,
+.bq-header-filter button.btn:hover,
+.popup,
+.bq-question-explanation,
+.bq-btn.disabled {
+	background: $bglight;
+}
+
+.dropdown-menu > li > a {
+	color: $text;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: $text;
+	background-color: $button;
+}
+
+.bq-header-search .bq-form-control {
+	color: #fff;
+
+	::placeholder {
+		color: $hint;
+	}
+}
+
+.input.empty[data-placeholder]::before {
+	color: $hint;
+}
+.input.empty[data-placeholder]:focus::before {
+	color: mix($hint, $bglight, 50%);
+}
+
+.bq-comment-input-wrap .bq-input-field {
+	border: 1px solid $bglight;
+	background: $bglight;
+}
+
+.bq-result-question-item + .bq-result-question-item .bq-result-question-body {
+	border-top: 1px solid $bglight;
 }
