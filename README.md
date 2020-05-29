@@ -1,5 +1,5 @@
 # Dark UserCSS for Telegram's Quiz Directory
-For whom "hello darkness, my old friend" is a relief to the eyes.
+For people who welcome darkness, their old friend with a sigh of relief.
 
 ## Preview
 ![](https://i.imgur.com/359Gw7Y.png)
